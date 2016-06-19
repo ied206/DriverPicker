@@ -119,7 +119,7 @@ class InfoStruct:
 def parse_argument():
     parser = argparse.ArgumentParser(
         prog=PROG_NAME+'.py',
-        usage='python %(prog)s TARGET -arch ARCH -winver VER [-pure]\n       python %(prog)s [-h]',
+        usage='python %(prog)s TARGET --arch ARCH --winver VER [-pure]\n       python %(prog)s TARGET -a ARCH -w VER [-pure]\n       python %(prog)s [-h]',
         formatter_class=argparse.RawTextHelpFormatter,
         description='''
     Collect specific Windows' drivers from DriverPacks Solution.
