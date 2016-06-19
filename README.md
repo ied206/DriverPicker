@@ -6,13 +6,13 @@ It can also be used with other driver collections.
 ### How it works?
 DriverPicker traverses folders to find drivers, inspects driver's target version and architecture.  
 It also utilize DPS's folder naming convention to detect target version and architecture.  
-Finally it will truncate unneccesary drivers, and only drivers for specific version and architecture will be left. 
+Finally it will sort out unneccesary drivers, and only drivers for specific version and architecture will be left. 
 
 WARNING : DriverPicker modifies its target folder, so you MUST prepare BACKUP of target folder.
 
 
 ### Why did I made it?
-I occasionally build Windows PE with [Win10PESE](http://theoven.org/index.php?topic=1336.0).  
+I occasionally build Windows PE with [theoven.org's Win PESE](http://theoven.org/index.php?topic=1336.0).  
 Windows PE is useful for emergency boot purpose, but needs integration of drivers to work properly in all systems.  
 Especially, LAN, WLAN drivers are essential for all-purpose Windows PE.  
 
@@ -34,7 +34,7 @@ Any bug report or suggestions will be appreciated.
 ## Requirement
 - [Python 3](https://www.python.org/downloads/)
 - [treelib](http://xiaming.me/treelib/) library
-- Piles of Windows drivers, usually [DriverPacks Solution Full](http://download.drp.su/DriverPack-Offline.torrent).  
+- Collection of Windows drivers, usually [DriverPacks Solution Full](http://download.drp.su/DriverPack-Offline.torrent).  
 
 
 ## Install
