@@ -26,9 +26,9 @@ For example, picking up 'Windows 10 x64' drivers from 7, 8, 10, x86, x64 drivers
   
 
 ### Note
-This project is still in development and may be incomplete.
-I do not provide any warranty with result, please read WARNING before using. 
-Bug report and suggestions will be appreciated.
+This project is still in development and may be incomplete.  
+I do not provide any warranty with result, please read WARNING before using.  
+Any bug report or suggestions will be appreciated.
 
     
 ## Requirement
