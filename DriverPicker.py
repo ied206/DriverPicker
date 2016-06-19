@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
-
 """
+DriverPicker  v1.0
+Written by ied206 (aka Joveler)
+"""
+"""
+Development Memo
+
 - Inf Pattern 1
 [(vendor).NT(arch).(version)]
 [Intel.NTamd64.5.2]
@@ -26,7 +30,7 @@ import re
 import shutil
 import math
 import argparse
-from treelib import Node, Tree # http://xiaming.me/treelib/examples.html#basic-usage
+from treelib import Node, Tree # http://xiaming.me/treelib
 
 # declare CONSTANT
 WRITTEN_YEAR = '2016'
@@ -57,7 +61,7 @@ DPS_WINVER_ANNOYING_DICT = {
     # 881 == 8, 8.1
     '881': [{'majorVer': 6, 'minorVer': 2},
             {'majorVer': 6, 'minorVer': 3}],
-    # 881 == 8, 8.1, 10
+    # 88110== 8, 8.1, 10
     '88110': [{'majorVer': 6, 'minorVer': 2},
             {'majorVer': 6, 'minorVer': 3},
             {'majorVer': 10, 'minorVer': 0}],
@@ -466,3 +470,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
