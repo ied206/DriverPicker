@@ -25,9 +25,14 @@ DriverPicker pick up only drivers you need from DPS Full's unsorted driver colle
 For example, picking up 'Windows 10 x64' drivers from 7, 8, 10, x86, x64 drivers.
   
 
+### Note
+This project is still in development and may be incomplete.
+I do not provide any warranty with result, please read WARNING before using. 
+Bug report and suggestions will be appreciated.
+
     
 ## Requirement
-- Python 3
+- [Python 3](https://www.python.org/downloads/)
 - [treelib](http://xiaming.me/treelib/) library
 - Piles of Windows drivers, usually [DriverPacks Solution Full](http://download.drp.su/DriverPack-Offline.torrent).  
 
