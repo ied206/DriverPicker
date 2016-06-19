@@ -2,6 +2,7 @@
 """
 DriverPicker  v1.0
 Written by ied206 (aka Joveler)
+Licensed under MIT License
 """
 """
 Development Memo
